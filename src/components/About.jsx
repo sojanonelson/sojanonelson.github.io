@@ -56,7 +56,7 @@ const About = () => {
     {
       degree: "BCA in Cloud Computing & Ethical Hacking",
       institution: "East West College of Management, Bangalore",
-      period: "09/2022 - Present",
+      period: "2022 - 2025",
       courses: [
         "Advanced Network Security",
         "Cloud Infrastructure",
@@ -81,23 +81,23 @@ const About = () => {
 
   const projects = [
     {
+      name: "Kasavu Aalayam",
+      description: "A premium e-commerce platform for Indian ethnic wear with worldwide shipping and secure payments.",
+      tech: ["React.js", "Node.js", "MongoDB", "MERN Stack"]
+    },
+    {
+      name: "Persona Gifts",
+      description: "A specialized e-commerce store for personalized gifts based in the UK, featuring custom gift builders.",
+      tech: ["React.js", "Node.js", "MongoDB", "Paypal/Stripe"]
+    },
+    {
       name: "ChordBeats",
-      description: "Digital studio web application for creating music beats and virtual instruments",
-      tech: ["React", "Node.js", "Web Audio API"]
-    },
-    {
-      name: "Security Dashboard",
-      description: "Real-time network monitoring tool with threat detection",
-      tech: ["Python", "Django", "Wireshark API"]
-    },
-    {
-      name: "E-commerce Platform",
-      description: "Secure online store with payment gateway and admin panel",
-      tech: ["Next.js", "MongoDB", "Stripe API"]
+      description: "Digital studio web application for creating music beats and virtual instruments.",
+      tech: ["React.js", "Node.js", "Web Audio API"]
     },
     {
       name: "Vulnerability Scanner",
-      description: "Automated web application security scanner",
+      description: "Automated web application security scanner for identifying common vulnerabilities.",
       tech: ["Python", "BeautifulSoup", "Nmap"]
     }
   ];
@@ -167,7 +167,7 @@ const About = () => {
               transition={{ delay: 0.2 }}
             >
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-                Cybersecurity Analyst & MERN-Stack Developer
+                Cybersecurity Analyst & Software Engineer
               </h2>
               
               <p className="text-gray-300 mb-8 leading-relaxed">

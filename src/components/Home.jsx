@@ -116,7 +116,7 @@ useEffect(() => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <span className="text-green-400 select-none">Cybersecurity Analyst</span> & <span className="text-green-400">MERN Stack Developer</span> building secure and scalable web applications.
+            <span className="text-green-400 select-none">Cybersecurity Analyst</span> & <span className="text-green-400">Software Engineer</span> building secure and scalable web applications.
           </motion.p>
           
           <div className="mb-0">
