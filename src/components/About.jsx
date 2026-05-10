@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/profile.jpeg";
 import { Helmet } from 'react-helmet';
 import { Shield, Code, Database, Server, Terminal, GraduationCap, Award, Cpu } from "lucide-react";
 import './About.css'

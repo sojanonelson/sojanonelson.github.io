@@ -9,8 +9,6 @@ import OnlineLearn  from '../assets/project/OnlineLearn.jpg'
 import PersonaGifts from '../assets/project/PersonaGifts.png'
 import Lunchify from '../assets/project/Lunchify.png'
 import { Helmet } from 'react-helmet';
-// Import React Icons
-
 import { FaReact, FaNodeJs, FaPython, FaSpotify, FaGlobe } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiTensorflow, SiPostman, SiFirebase } from 'react-icons/si';
 import { Link } from 'react-router-dom';
@@ -165,7 +163,7 @@ const Project = () => {
       
       <h1 className="text-4xl text-center poppins-bold mb-12 text-[#00ff41]">Projects</h1>
 
-      {/* Live Projects Section */}
+      
       <div className="w-full max-w-7xl mb-20">
         <div className="flex items-center gap-4 mb-8">
           <div className="h-[1px] bg-green-500/30 flex-grow"></div>
@@ -179,7 +177,7 @@ const Project = () => {
         </div>
       </div>
 
-      {/* Personal Projects Section */}
+    
       <div className="w-full max-w-7xl">
         <div className="flex items-center gap-4 mb-8">
           <div className="h-[1px] bg-green-500/30 flex-grow"></div>
