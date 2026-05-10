@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.1ba8c901.css",
-    "main.js": "/static/js/main.49163db5.js",
+    "main.js": "/static/js/main.7ac951e4.js",
     "static/media/Ecom.png": "/static/media/Ecom.157308b6e3dd201a1a1d.png",
     "static/media/chordbeat.png": "/static/media/chordbeat.46ccc46092d37e86405a.png",
     "static/media/PersonaGifts.png": "/static/media/PersonaGifts.207677f44ec79d61d732.png",
     "static/media/spotify.png": "/static/media/spotify.6067682a47bdc6cbecf1.png",
+    "static/media/profile.jpeg": "/static/media/profile.f1a0e0524617c998c2cc.jpeg",
     "static/media/Portfolio.png": "/static/media/Portfolio.8bb276047931b8a11274.png",
-    "static/media/profile.jpg": "/static/media/profile.7604a1fed92912e0fa79.jpg",
     "static/media/OnlineLearn.jpg": "/static/media/OnlineLearn.99dd6e3af74ccf41c8ec.jpg",
     "static/media/Lunchify.png": "/static/media/Lunchify.cf132adb135b98461829.png",
     "static/media/Lara.jpg": "/static/media/Lara.b75a7295faa97f8467d2.jpg",
     "static/media/1.png": "/static/media/1.223981263d3514c11a4f.png",
     "index.html": "/index.html",
     "main.1ba8c901.css.map": "/static/css/main.1ba8c901.css.map",
-    "main.49163db5.js.map": "/static/js/main.49163db5.js.map"
+    "main.7ac951e4.js.map": "/static/js/main.7ac951e4.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba8c901.css",
-    "static/js/main.49163db5.js"
+    "static/js/main.7ac951e4.js"
   ]
 }
