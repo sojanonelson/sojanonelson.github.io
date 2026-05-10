@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import ChordBeat from "../assets/project/chordbeat.png";
 import Spotify from '../assets/project/spotify.png';
 import Lara from '../assets/project/Lara.jpg';
-import Ecom from '../assets/project/Ecom.jpg';
+import Ecom from '../assets/project/Ecom.png';
 import Portfolio from '../assets/project/Portfolio.png'
 import OnlineLearn  from '../assets/project/OnlineLearn.jpg'
 import PersonaGifts from '../assets/project/PersonaGifts.png'
@@ -196,4 +196,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Project;

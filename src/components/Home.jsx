@@ -35,24 +35,55 @@ useEffect(() => {
   fetchIP();
 }, []);
 
+  const milestones = [
+    { text: ">>> SYSTEM INITIALIZED", type: "info" },
+    { text: ">>> SECURITY SCAN COMPLETE: 0 THREATS", type: "success" },
+    { text: ">>> ACCESSING ENCRYPTED PORTFOLIO...", type: "warning" },
+    { text: ">>> CONNECTION STABLE: SOJAN O NELSON ", type: "info" },
+  ];
+
+  const [terminalText, setTerminalText] = useState("");
+  const [lineIndex, setLineIndex] = useState(0);
+
+  useEffect(() => {
+    if (lineIndex < milestones.length) {
+      const timer = setTimeout(() => {
+        setTerminalText(prev => prev + milestones[lineIndex].text + "\n");
+        setLineIndex(prev => prev + 1);
+      }, 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [lineIndex]);
+
   return (
     <section id="home" className="min-h-screen relative bg-gradient-to-b from-[#0a0a0a] to-[#111111] flex items-center justify-center w-full text-white overflow-hidden px-4">
-      {/* <Particles /> */}
+      <Particles />
       <Helmet>
-        <title>Sojan | Cybersecurity Analyst & MERN Developer</title>
-        <meta name="description" content="Portfolio of Sojan O Nelson, a skilled Cybersecurity Analyst and MERN Stack Developer." />
-        <meta name="keywords" content="Sojan, Cybersecurity, Ethical Hacking, MERN Developer, Web Developer" />
+        <title>Sojan | Cybersecurity Analyst & Software Engineer</title>
+        <meta name="description" content="Portfolio of Sojan O Nelson, a skilled Cybersecurity Analyst and Software Engineer." />
+        <meta name="keywords" content="Sojan, Cybersecurity, Ethical Hacking, Software Engineer, Web Developer" />
       </Helmet>
       
-      <div className="container mx-auto flex flex-col md:flex-row overflow-hidden items-center justify-between py-20">
-      
-
+      <div className="container mx-auto flex flex-col md:flex-row overflow-hidden items-center justify-between py-20 relative z-10">
         <motion.div
           className="text-center md:text-left md:w-1/2"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
+          {/* Terminal Component for creative flair */}
+          <div className="hidden lg:block absolute -top-10 left-0 w-80 font-mono text-[10px] bg-black/40 border border-green-500/20 p-2 rounded-md backdrop-blur-sm opacity-60">
+            <div className="flex gap-1 mb-1">
+              <div className="w-2 h-2 rounded-full bg-red-500/50"></div>
+              <div className="w-2 h-2 rounded-full bg-yellow-500/50"></div>
+              <div className="w-2 h-2 rounded-full bg-green-500/50"></div>
+            </div>
+            <pre className="text-green-500 whitespace-pre-wrap leading-tight animate-pulse">
+              {terminalText}
+              <span className="w-1.5 h-3 bg-green-500 ml-1 inline-block animate-blink"></span>
+            </pre>
+          </div>
+
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -63,46 +94,27 @@ useEffect(() => {
             {viewCount} Views
           </motion.div>
 
-{ipAddress && (
-  <motion.p
-    className="text-sm select-none text-gray-400 mt-2 my-4 flex flex-wrap"
-    initial="hidden"
-    animate="visible"
-    variants={{
-      visible: { transition: { staggerChildren: 0.07 } }
-    }}
-  >
-    Your IP:{" "}
-    <span className="text-green-400 select-none flex ml-2">
-      {ipAddress.split("").map((char, index) => (
-        <motion.span
-          key={index}
-          className="inline-block"
-          variants={{
-            hidden: { opacity: 0, scale: 0, rotate: -45 },
-            visible: { opacity: 1, scale: 1, rotate: 0, transition: { type: "spring", stiffness: 300 } }
-          }}
-        >
-          {char}
-        </motion.span>
-      ))}
-    </span>
-  </motion.p>
-)}
+          {ipAddress && (
+            <motion.p
+              className="text-sm select-none text-gray-400 mt-2 my-4 flex flex-wrap font-mono uppercase tracking-widest"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+            >
+              Visitor: <span className="text-green-400 ml-2">{ipAddress}</span>
+            </motion.p>
+          )}
 
-
-          
           <motion.h1
-            className="text-2xl lg:text-3xl font-mono select-none text-green-400 mb-2"
+            className="text-2xl lg:text-1xl font-mono select-none text-green-200 mb-2"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            Hi there, I'm
+            INITIATING_SESSION.WELCOME
           </motion.h1>
           
           <motion.h1
-            className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-white"
+            className="text-4xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-white font-mono"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
@@ -111,16 +123,17 @@ useEffect(() => {
           </motion.h1>
           
           <motion.p
-            className="text-lg md:text-xl select-none text-gray-300 mb-6 max-w-lg"
+            className="text-lg md:text-xl select-none text-gray-300 mb-6 max-w-lg leading-relaxed"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <span className="text-green-400 select-none">Cybersecurity Analyst</span> & <span className="text-green-400">Software Engineer</span> building secure and scalable web applications.
+            <span className="text-green-400 select-none">Cybersecurity Analyst</span> & <span className="text-green-400">Software Engineer</span>. Specializing in building secure, resilient tech architectures that scale.
           </motion.p>
           
-          <div className="mb-0">
+          <div className="mb-0 overflow-hidden rounded-lg border border-green-500/10 shadow-lg shadow-green-500/5">
             <iframe 
+              title="TryHackMe Public Profile Badge"
               src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=112534" 
               style={{ border: "none", width: "100%", height: "auto" }}
               className="max-w-lg"
