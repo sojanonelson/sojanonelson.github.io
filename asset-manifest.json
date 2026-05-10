@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.8b5ec576.css",
-    "main.js": "/myportfolio/static/js/main.3826c03c.js",
-    "static/media/chordbeat.png": "/myportfolio/static/media/chordbeat.46ccc46092d37e86405a.png",
-    "static/media/spotify.png": "/myportfolio/static/media/spotify.6067682a47bdc6cbecf1.png",
-    "static/media/Portfolio.png": "/myportfolio/static/media/Portfolio.8bb276047931b8a11274.png",
-    "static/media/Ecom.jpg": "/myportfolio/static/media/Ecom.9368254c7ffcd229506f.jpg",
-    "static/media/profile.jpg": "/myportfolio/static/media/profile.7604a1fed92912e0fa79.jpg",
-    "static/media/OnlineLearn.jpg": "/myportfolio/static/media/OnlineLearn.99dd6e3af74ccf41c8ec.jpg",
-    "static/media/Lara.jpg": "/myportfolio/static/media/Lara.b75a7295faa97f8467d2.jpg",
-    "static/media/1.png": "/myportfolio/static/media/1.223981263d3514c11a4f.png",
-    "index.html": "/myportfolio/index.html",
-    "main.8b5ec576.css.map": "/myportfolio/static/css/main.8b5ec576.css.map",
-    "main.3826c03c.js.map": "/myportfolio/static/js/main.3826c03c.js.map"
+    "main.css": "/static/css/main.1ba8c901.css",
+    "main.js": "/static/js/main.49163db5.js",
+    "static/media/Ecom.png": "/static/media/Ecom.157308b6e3dd201a1a1d.png",
+    "static/media/chordbeat.png": "/static/media/chordbeat.46ccc46092d37e86405a.png",
+    "static/media/PersonaGifts.png": "/static/media/PersonaGifts.207677f44ec79d61d732.png",
+    "static/media/spotify.png": "/static/media/spotify.6067682a47bdc6cbecf1.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.8bb276047931b8a11274.png",
+    "static/media/profile.jpg": "/static/media/profile.7604a1fed92912e0fa79.jpg",
+    "static/media/OnlineLearn.jpg": "/static/media/OnlineLearn.99dd6e3af74ccf41c8ec.jpg",
+    "static/media/Lunchify.png": "/static/media/Lunchify.cf132adb135b98461829.png",
+    "static/media/Lara.jpg": "/static/media/Lara.b75a7295faa97f8467d2.jpg",
+    "static/media/1.png": "/static/media/1.223981263d3514c11a4f.png",
+    "index.html": "/index.html",
+    "main.1ba8c901.css.map": "/static/css/main.1ba8c901.css.map",
+    "main.49163db5.js.map": "/static/js/main.49163db5.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5ec576.css",
-    "static/js/main.3826c03c.js"
+    "static/css/main.1ba8c901.css",
+    "static/js/main.49163db5.js"
   ]
 }
