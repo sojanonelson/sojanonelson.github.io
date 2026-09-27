@@ -1,0 +1,133 @@
+# Sojan O Nelson
+
+> Cybersecurity Analyst & Full-Stack Software Engineer specializing in web application security, ethical hacking, penetration testing, and scalable full-stack web development.
+
+## Executive Summary
+
+Sojan O Nelson is a Technology Designer, Cybersecurity Analyst, and Full-Stack Software Engineer based in India. He holds a Bachelor of Computer Applications (BCA) degree in Cloud Computing and Ethical Hacking from East West College of Management, Bangalore (2022–2025). 
+
+Sojan bridges the gap between offensive cybersecurity and software engineering. He designs and develops resilient, high-performance web applications, IoT solutions, and automation systems while conducting threat modeling, vulnerability assessments, and security audits to ensure application security by design.
+
+## Technical Competencies
+
+### Cybersecurity & Ethical Hacking
+- **Penetration Testing & Vulnerability Assessment**: Web application security, network protocol analysis, security audits, threat modeling, OWASP Top 10 mitigation.
+- **Security Tools & Platforms**: Burp Suite, Nmap, Metasploit, Wireshark, TryHackMe, Hack The Box, OWASP ZAP.
+- **Security Domains**: Cryptography, Network Security, Web Application Firewalls, Cloud Infrastructure Security, Secure Code Auditing.
+
+### Software Engineering & Full-Stack Development
+- **Frontend Stack**: React.js, Next.js (App Router, Static Export), Vite.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Lottie Animations, Figma.
+- **Backend Stack**: Node.js, Express.js, Python, RESTful API Design, JWT Authentication, Session Management, Microservices.
+- **Databases**: MongoDB (Atlas/Mongoose), Firebase Realtime Database & Firestore, MySQL.
+- **DevOps & Developer Tools**: Linux (Ubuntu, Kali Linux), Git, GitHub, Docker, Postman, Insomnia, VS Code, Vercel, Render.
+
+### Emerging Tech & AI/ML
+- **Machine Learning**: KNN, K-Means Clustering, Scikit-learn, TensorFlow.
+- **Audio & Media**: Web Audio API for digital music beat creation and audio processing.
+
+## Work Experience & Career Roadmap
+
+### Technology Designer
+**Webyfy IOT Pvt Ltd** | *2025 – Present*
+- Leading the architectural design and software implementation for innovative IoT products and high-performance tech stacks post-graduation.
+- Developing secure software solutions interfacing hardware sensors, microservices, and cloud endpoints.
+
+### Remote Full Stack Developer
+**Fosoft Solutions** | *2022 – 2024*
+- Developed responsive web and mobile application features using React and Node.js while completing undergraduate studies.
+- Mentored junior developer interns in code quality, modern React patterns, and security best practices.
+
+### Founder & Content Creator
+**Code Brother YouTube Channel** (`@CodeBrotherIn`)
+- Created ethical hacking tutorials, cybersecurity guides, and web development programming content for students and developer communities.
+
+### Cybersecurity Researcher & Learner
+**Self-Learning & Platform Practice** | *Schooling to Present*
+- Active participant on TryHackMe (User ID: 112534) and Hack The Box, focusing on penetration testing, privilege escalation, and network exploitation.
+
+## Comprehensive Project Portfolio
+
+### Professional & Client Projects
+
+#### 1. Kasavu Aalayam
+- **URL**: [kasavuaalayam.com](https://www.kasavuaalayam.com)
+- **Category**: E-Commerce / Retail Tech
+- **Stack**: React.js, Node.js, Express.js, MongoDB
+- **Key Features**: Premium e-commerce platform for traditional and contemporary Indian ethnic wear with worldwide shipping options, custom cart management, and secure checkout workflows.
+
+#### 2. Persona Gifts
+- **URL**: [personagifts.co.uk](https://personagifts.co.uk)
+- **Category**: E-Commerce / Custom Printing
+- **Stack**: React.js, Node.js, Express.js, MongoDB, Stripe API / PayPal
+- **Key Features**: UK-based e-commerce platform specializing in custom personalized gifts and photo prints, featuring dynamic product customization tools and payment integration.
+
+---
+
+### Personal & Open-Source Projects
+
+#### 3. ChordBeats
+- **URL**: [chordbeat.vercel.app](https://chordbeat.vercel.app)
+- **Category**: Web Audio / Music Production
+- **Stack**: React.js, Web Audio API, Node.js, Express.js, MongoDB
+- **Key Features**: Digital studio web application allowing users to compose music beats, play virtual instruments, and synthesize custom sound loops directly in the browser.
+
+#### 4. Automated Vulnerability Scanner
+- **Category**: Cybersecurity Tool
+- **Stack**: Python, BeautifulSoup, Nmap, Request Library
+- **Key Features**: Security scanner script created for automated discovery of web application vulnerabilities, open ports, header misconfigurations, and outdated software versions.
+
+#### 5. Personal Voice Assistant ("Lara")
+- **Category**: Artificial Intelligence & Automation
+- **Stack**: Python, TensorFlow, Eel (GUI Framework), SpeechRecognition, Pyttsx3, MongoDB
+- **Key Features**: Desktop voice-controlled virtual assistant capable of launching system applications, fetching web intelligence, taking notes, and executing computer commands via voice prompts.
+
+#### 6. Spotify Clone
+- **Category**: Streaming Media Application
+- **Stack**: React.js, Node.js, Express.js, MongoDB, Spotify Web API
+- **Key Features**: Interactive media player replicating key Spotify features including user authentication, playlist creation, track search, and audio playback.
+
+#### 7. Lunchify
+- **Category**: Web Application / Organizational Tools
+- **Stack**: React.js, Node.js, Express.js, MongoDB
+- **Key Features**: Food coordination and meal ordering management system built for institutional teams to streamline daily lunch orders.
+
+#### 8. Online Learning Platform
+- **Category**: EdTech
+- **Stack**: React.js, Node.js, Express.js, MongoDB, Firebase
+- **Key Features**: E-learning portal featuring course catalog management, video lecture streaming, and quiz assessments.
+
+#### 9. Personal Portfolio Website
+- **URL**: [sojanonelson.github.io](https://sojanonelson.github.io)
+- **Stack**: Next.js 14 (App Router), React 18, Tailwind CSS, Framer Motion, Express/MongoDB backend (visit tracker)
+- **Key Features**: Interactive cyber-themed portfolio with particle animations, live visit counter, terminal simulator, and interactive career roadmap.
+
+## Education & Certifications
+
+### Education
+- **Bachelor of Computer Applications (BCA) in Cloud Computing & Ethical Hacking**
+  - Institution: East West College of Management, Bangalore, India
+  - Timeline: 2022 – 2025
+  - Core Focus: Advanced Network Security, Cloud Infrastructure, Web Application Security, Cryptography, Database Management, System Administration.
+
+### Certifications & Training
+- Cybersecurity Internship Completion Certificate (2023)
+- Cybersecurity & Ethical Hacking Technical Webinars (2023)
+
+## Website Structure & Navigation
+
+- `/` or `/home`: Home banner, live view counter, visitor IP detector, matrix terminal intro, social links, resume download.
+- `/about`: Detailed biography, categorized skill matrix, education history, and interactive tabs.
+- `/projects`: Showcase of live client applications and personal open-source projects.
+- `/career`: Timeline roadmap detailing Sojan's professional journey from self-learning to Technology Designer.
+- `/contact`: Social links and email contact information.
+- `/llms.txt`: Machine-readable summary for AI agents and LLM crawlers.
+
+## Contact & Links
+
+- **Portfolio**: [https://sojanonelson.github.io](https://sojanonelson.github.io)
+- **GitHub**: [https://github.com/sojanonelson](https://github.com/sojanonelson)
+- **LinkedIn**: [https://linkedin.com/in/sojan-o-nelson](https://linkedin.com/in/sojan-o-nelson)
+- **Email**: mailto:sojanonelson54@gmail.com
+- **YouTube**: [https://www.youtube.com/@CodeBrotherIn](https://www.youtube.com/@CodeBrotherIn)
+- **TryHackMe Badge**: [https://tryhackme.com/api/v2/badges/public-profile?userPublicId=112534](https://tryhackme.com/api/v2/badges/public-profile?userPublicId=112534)
+- **Resume Download**: [Google Docs Resume Link](https://docs.google.com/document/d/1aMGu3FBezIBM2-T47pFsjeAevgu1P8yl/edit?usp=drivesdk&ouid=115256666664453497913&rtpof=true&sd=true)

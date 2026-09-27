@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Shield, Code, Database, Server, Terminal, GraduationCap, Award, Cpu } from "lucide-react";
 import './About.css'
 
-const Profile = "/assets/profile.jpeg";
+const Profile = "/assets/profile.webp";
 
 const About = () => {
   const [activeSection, setActiveSection] = useState("skills");
