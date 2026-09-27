@@ -86,8 +86,8 @@ useEffect(() => {
             transition={{ delay: 0.2 }}
             className="inline-flex items-center select-none px-3 py-1 rounded-full bg-green-900/20 text-green-400 border border-green-400/30 mb-4 text-sm"
           >
-            <Eye className="mr-2" size={16} />
-            {viewCount} Views
+         
+            
           </motion.div>
 
           {ipAddress && (
@@ -127,7 +127,7 @@ useEffect(() => {
             <span className="text-green-400 select-none">Cybersecurity Analyst</span> & <span className="text-green-400">Software Engineer</span>. Specializing in building secure, resilient tech architectures that scale.
           </motion.p>
           
-          <div className="mb-0 overflow-hidden rounded-lg border border-green-500/10 shadow-lg shadow-green-500/5">
+          <div className="mb-0 overflow-hidden rounded-lg">
             <iframe 
               title="TryHackMe Public Profile Badge"
               src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=112534" 

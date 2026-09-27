@@ -2,7 +2,7 @@ import "./globals.css";
 import "../App.css";
 
 export const metadata = {
-  title: "Sojan | Software Developer & Web Developer",
+  title: "Sojan | Software engineer",
   description: "Portfolio of Sojan O Nelson, a Software Developer and Web Developer skilled in React, Node.js, and modern web technologies. Discover projects and connect with Sojan.",
   keywords: "Sojan, Sojan O Nelson, Software Developer, Web Developer, React, JavaScript, Portfolio",
   robots: "index, follow",
