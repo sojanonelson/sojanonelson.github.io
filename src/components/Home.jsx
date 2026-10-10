@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 import Developer from '../../public/assets/dev.json';
-import Particles from './Particles';
 import { Github, Linkedin, FileText, Eye, Youtube } from "lucide-react";
+import { FaMedium } from "react-icons/fa";
 
 const Home = ({ viewCount }) => {
   const defaultOptions = {
@@ -58,7 +58,6 @@ useEffect(() => {
 
   return (
     <section id="home" className="min-h-screen relative bg-gradient-to-b from-[#0a0a0a] to-[#111111] flex items-center justify-center w-full text-white overflow-hidden px-4">
-      <Particles />
       
       <div className="container mx-auto flex flex-col md:flex-row overflow-hidden items-center justify-between py-20 relative z-10">
         <motion.div
@@ -92,7 +91,7 @@ useEffect(() => {
 
           {ipAddress && (
             <motion.p
-              className="text-sm select-none text-gray-400 mt-2 my-4 flex flex-wrap font-mono uppercase tracking-widest"
+              className="text-xs select-none text-gray-400 mt-2 my-4 flex flex-wrap font-mono uppercase tracking-widest justify-center md:justify-start"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
             >
@@ -101,7 +100,7 @@ useEffect(() => {
           )}
 
           <motion.h1
-            className="text-2xl lg:text-1xl font-mono select-none text-green-200 mb-2"
+            className="hidden md:block text-2xl lg:text-1xl font-mono select-none text-green-200 mb-2"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
@@ -127,12 +126,12 @@ useEffect(() => {
             <span className="text-green-400 select-none">Cybersecurity Analyst</span> & <span className="text-green-400">Software Engineer</span>. Specializing in building secure, resilient tech architectures that scale.
           </motion.p>
           
-          <div className="mb-0 overflow-hidden rounded-lg">
+          <div className="mb-0 overflow-hidden rounded-lg flex justify-center md:justify-start w-full">
             <iframe 
               title="TryHackMe Public Profile Badge"
               src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=112534" 
               style={{ border: "none", width: "100%", height: "auto" }}
-              className="max-w-lg"
+              className="w-full max-w-sm md:max-w-lg mx-auto md:mx-0"
             ></iframe>
           </div>
  
@@ -159,6 +158,23 @@ useEffect(() => {
   >
     <FileText size={18} />
     <span>Resume</span>
+  </motion.a>
+
+  <motion.a
+    href="https://medium.com/@sojanonelson"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-4 py-2 bg-black hover:bg-gray-800 text-white rounded-md font-medium flex items-center space-x-2 border border-gray-700 transition-colors duration-300"
+    whileHover={{ 
+      scale: 1.05,
+      boxShadow: "0 8px 25px rgba(255, 255, 255, 0.2)",
+      y: -2
+    }}
+    whileTap={{ scale: 0.95 }}
+    transition={{ type: "spring", stiffness: 300, damping: 20 }}
+  >
+    <FaMedium size={18} />
+    <span>Medium</span>
   </motion.a>
   
   <motion.a

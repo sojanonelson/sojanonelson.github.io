@@ -16,7 +16,7 @@ Sojan bridges the gap between offensive cybersecurity and software engineering. 
 - **Security Domains**: Cryptography, Network Security, Web Application Firewalls, Cloud Infrastructure Security, Secure Code Auditing.
 
 ### Software Engineering & Full-Stack Development
-- **Frontend Stack**: React.js, Next.js (App Router, Static Export), Vite.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Lottie Animations, Figma.
+- **Frontend Stack**: React.js, Next.js (App Router, Static Export), React Native, Vite.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Lottie Animations, Figma.
 - **Backend Stack**: Node.js, Express.js, Python, RESTful API Design, JWT Authentication, Session Management, Microservices.
 - **Databases**: MongoDB (Atlas/Mongoose), Firebase Realtime Database & Firestore, MySQL.
 - **DevOps & Developer Tools**: Linux (Ubuntu, Kali Linux), Git, GitHub, Docker, Postman, Insomnia, VS Code, Vercel, Render.

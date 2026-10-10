@@ -15,7 +15,6 @@ const PortfolioView = () => {
   const pathname = usePathname();
 
   const [viewCount, setViewCount] = useState(0);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Increment and fetch view count on mount
   useEffect(() => {
@@ -53,11 +52,7 @@ const PortfolioView = () => {
 
   return (
     <div className="App bg-[#0a0a0a] text-white">
-      <Navbar
-        router={router}
-        isMenuOpen={isMenuOpen}
-        setIsMenuOpen={setIsMenuOpen}
-      />
+      <Navbar router={router} />
       <Home viewCount={viewCount} />
       <About />
       <Project />
@@ -68,90 +63,17 @@ const PortfolioView = () => {
   );
 };
 
-const Navbar = ({ router, isMenuOpen, setIsMenuOpen }) => (
-  <nav className="fixed top-0 left-0 w-full bg-[#0a0a0a]/90 backdrop-blur-sm py-3 z-50 select-none border-b border-green-500/20">
-    <div className="container mx-auto px-4 flex justify-center items-center">
-      <ul className="hidden md:flex space-x-8">
+const Navbar = ({ router }) => (
+  <nav className="fixed top-0 left-0 w-full bg-[#0a0a0a]/90 backdrop-blur-sm py-2.5 md:py-3 z-50 select-none border-b border-green-500/20">
+    <div className="container mx-auto px-3 sm:px-4 flex justify-center items-center">
+      <ul className="flex items-center justify-center space-x-3.5 sm:space-x-6 md:space-x-8 text-xs sm:text-sm md:text-base font-medium">
         <NavItem router={router} to="home" label="Home" />
         <NavItem router={router} to="about" label="About" />
         <NavItem router={router} to="projects" label="Projects" />
         <NavItem router={router} to="contact" label="Contact" />
         <NavItem router={router} to="career" label="Career" />
       </ul>
-
-      <button
-        className="md:hidden text-green-400 focus:outline-none"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      >
-        {isMenuOpen ? (
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        ) : (
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        )}
-      </button>
     </div>
-
-    {/* Mobile Menu */}
-    {isMenuOpen && (
-      <div className="md:hidden bg-[#0a0a0a] border-t border-green-500/20">
-        <ul className="flex flex-col space-y-4 p-4">
-          <MobileNavItem
-            router={router}
-            to="home"
-            label="Home"
-            setIsMenuOpen={setIsMenuOpen}
-          />
-          <MobileNavItem
-            router={router}
-            to="about"
-            label="About"
-            setIsMenuOpen={setIsMenuOpen}
-          />
-          <MobileNavItem
-            router={router}
-            to="projects"
-            label="Projects"
-            setIsMenuOpen={setIsMenuOpen}
-          />
-          <MobileNavItem
-            router={router}
-            to="contact"
-            label="Contact"
-            setIsMenuOpen={setIsMenuOpen}
-          />
-          <MobileNavItem
-            router={router}
-            to="career"
-            label="Career"
-            setIsMenuOpen={setIsMenuOpen}
-          />
-        </ul>
-      </div>
-    )}
   </nav>
 );
 
@@ -159,24 +81,10 @@ const NavItem = ({ router, to, label }) => (
   <li>
     <button
       onClick={() => router.push(`/${to === "home" ? "" : to}`)}
-      className="relative py-4 text-white hover:text-green-400 transition-colors duration-300 group"
+      className="relative py-1 md:py-3 text-white hover:text-green-400 transition-colors duration-300 group"
     >
       {label}
       <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span>
-    </button>
-  </li>
-);
-
-const MobileNavItem = ({ router, to, label, setIsMenuOpen }) => (
-  <li>
-    <button
-      onClick={() => {
-        router.push(`/${to === "home" ? "" : to}`);
-        setIsMenuOpen(false);
-      }}
-      className="w-full text-left text-white hover:text-green-400 py-2 px-4 transition-colors duration-300"
-    >
-      {label}
     </button>
   </li>
 );

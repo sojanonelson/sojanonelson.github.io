@@ -25,6 +25,7 @@ const About = () => {
     frontend: [
       "React.js",
       "Next.js",
+      "React Native",
       "Vite.js",
       "Tailwind CSS",
       "Bootstrap",
